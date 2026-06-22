@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @font-face {
-  font-family: 'Integral CF'; /* Exact font name */
-  src: url('public/font/Fontspring-DEMO-integralcf-bold.otf') format('public');
+  font-family: 'Integral CF';
+  src: url('/font/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
