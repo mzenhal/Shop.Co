@@ -1,12 +1,5 @@
 @import "tailwindcss";
-<<<<<<< HEAD
-@font-face {
-  font-family: 'Integral CF';
-  src: url('/font/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-=======
+
 
 @font-face {
   font-family: "IntegralCF";
@@ -15,82 +8,3 @@
   font-style: normal;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  min-width: 320px;
-}
-
-/* One horizontal grid for every section of the page. */
-.page-shell {
-  width: calc(100% - 32px);
-  max-width: 1240px;
-  margin-inline: auto;
-}
-
-.page-edge-right {
-  right: max(16px, calc((100% - 1240px) / 2));
-}
-
-.hero-star {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  max-width: none;
-}
-
-.hero-star-small {
-  top: 746px;
-  left: 7px;
-  width: 44px;
-  height: 44px;
-}
-
-.hero-star-large {
-  top: 610px;
-  right: 20px;
-  width: 76px;
-  height: 76px;
-}
-
-/* The desktop hero file is the complete Figma composition (1440 x 663).
-   Fill the frame exactly so the models always finish at its bottom edge. */
-@media (min-width: 1024px) {
-  .hero-artwork {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-  }
-
-  .hero-star-small {
-    top: 297px;
-    left: 52.08%;
-    width: 56px;
-    height: 56px;
-  }
-
-  .hero-star-large {
-    top: 86px;
-    right: auto;
-    left: 87.15%;
-    width: 104px;
-    height: 104px;
-  }
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.scrollbar-none {
-  scrollbar-width: none;
-}
-
-.scrollbar-none::-webkit-scrollbar {
-  display: none;
->>>>>>> 7404a92fd7e7d2cdee51cb690f240caf6163d7fc
-}
